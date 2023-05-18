@@ -1,0 +1,176 @@
+.head{
+  background-color: rgb(255, 196, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.column {
+  flex: 1;
+  padding: 2px;
+  background-color: #000000;
+  text-align: center;
+transition: background-color 0.3s ease;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+}
+.column:hover {
+  background-color: #64614c;
+}
+
+.column p {
+  margin-top: 10px;
+}.column_2 {
+  flex: 1;
+  padding: 2px;
+  background-color: #000000;
+  text-align: center;
+transition: background-color 0.3s ease;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.text{
+  background-color: rgb(46, 42, 42);
+  align-items: center;
+  justify-content: center;
+}
+.pep{
+  color: #FFD700;
+  margin: 20px;
+  padding: 10px;
+}
+.pop{
+  color: #b88009;
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.column {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+
+.column_2 {
+  flex-basis: 45%;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.my-form {
+  margin-top: 20px;
+  background-color: #000000;
+  padding: 20px;
+  color: darkorange;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+table {
+  margin-left: 35px;
+  width: 80%;
+  border-collapse: collapse;
+  color: #FFD700;
+ margin-top: 50px;
+ margin-right: 40px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ffd900;
+}
+
+th {
+  background-color: #000000;
+}
+
+.my-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: blue;
+}
+
+.my_name {
+  text-align: center;
+  color: darkorange;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  display: inline-block;
+  margin-right: 10px;
+}
+.my-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.my-link:hover {
+  background-color: rgb(255, 196, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .column,
+  .column_2 {
+    flex-basis: 100%;
+  }
+}
